@@ -43,7 +43,7 @@ public abstract class ClasePojo {
     }
 
     public abstract String calcular();
-
+    public abstract String nombreReves();
 
 
 }
