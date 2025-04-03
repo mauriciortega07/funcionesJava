@@ -7,6 +7,7 @@ public class Contexto {
         ClasePojo objComun = new AplicacionPojo("Mauricio", 25, "cdmx");
         System.out.println(objComun.toString());
         System.out.println(objComun.calcular());
+        System.out.println(objComun.nombreReves());
 
 
     }

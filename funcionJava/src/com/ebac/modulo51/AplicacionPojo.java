@@ -12,7 +12,17 @@ public class AplicacionPojo extends ClasePojo {
         return msj;
     }
 
+    @Override
+    public String nombreReves() {
+        String nombre = this.name;
+        String nombreAlReves = "";
 
+        for (int i = nombre.length()-1; i >= 0; i --){
+            nombreAlReves = nombreAlReves + nombre.charAt(i);
+        }
+
+        return "Mi nombre al reves es: " + nombreAlReves;
+    }
 
 
 }
